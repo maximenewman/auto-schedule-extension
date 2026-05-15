@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "auto-schedule CourSys sync",
+  "version": "0.1.0",
+  "description": "Send your CourSys cookies to your auto-schedule instance.",
+  "permissions": ["cookies", "storage"],
+  "host_permissions": ["*://*.sfu.ca/*"],
+  "optional_host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sync CourSys cookies"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
